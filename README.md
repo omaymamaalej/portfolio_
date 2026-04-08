@@ -1,16 +1,26 @@
 #  Omayma Maalej — Full Stack Developer Portfolio
 
- Live Portfolio: [https://omaymamaalej.vercel.app/]
+ Live Portfolio:[https://omaymamaalej.vercel.app/]
+
 
 ---
 
-##  Profile Summary
+## About the Project
 
-Full Stack Developer specialized in building modern, scalable, and responsive web applications using Angular and Spring Boot.
+This is a personal portfolio web application built with Angular.
 
-Focused on clean UI, performance optimization, and user experience.
+It is designed to present my skills, experience, and projects as a Full Stack Developer in a structured and professional way.
 
----
+The application focuses on clean UI design, responsiveness, and performance.
+
+## Project Purpose
+
+The purpose of this project is to:
+
+- Showcase my technical skills in Angular development
+- Present my professional background and experience
+- Display my projects in an organized way
+- Provide an easy way to contact me
 
 ##  Key Strengths 
 
@@ -22,29 +32,17 @@ Focused on clean UI, performance optimization, and user experience.
 - ✔ Problem Solving & Debugging
 
 ---
+## Built With
 
-##  Tech Stack
-
-**Frontend**
-- Angular
+- Angular 17
 - TypeScript
-- HTML5 / CSS3
-- Bootstrap
+- HTML5
+- CSS3
+- Bootstrap 5
+- Angular Material
+- RxJS
+- Vercel (deployment platform)
 
-**Backend**
-- Spring Boot
-- Node.js
-
-**Database**
-- MySQL
-- MongoDB
-
-**Tools**
-- Git & GitHub
-- Vercel
-- Postman
-
----
 
 ##  Featured Project
 
@@ -56,40 +54,56 @@ A personal portfolio showcasing my skills, projects, and experience.
 ✔ Smooth animations  
 ✔ Deployed on Vercel  
 
- Live: [https://YOUR-VERCEL-LINK.vercel.app](https://omaymamaalej.vercel.app/]
+ Live: [https://omaymamaalej.vercel.app/]
 
 ---
 
-##  Soft Skills
 
-- Communication  
-- Teamwork  
-- Adaptability  
-- Time Management  
-- Attention to Detail  
+## Sections
 
----
-
-##  Contact
-
-- 📧 Email: om.maalej@gmail.com  
-- 💼 LinkedIn: https://linkedin.com/in/omayma-maalej  
-- 💻 GitHub: https://github.com/omaymamaalej  
+- Home
+- About
+- Education and Experience
+- Projects
+- Contact
 
 ---
 
-##  Objective
+## Installation and Setup
 
-Seeking opportunities as a Full Stack Developer to contribute to impactful projects and grow in a professional environment.
+### Clone the repository
+
+##  Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/omaymamaalej/potfolio.git
+cd potfolio
+```
+### Install dependencies
+```bash
+npm install
+```
+### Run the project
+```bash
+ng serve
+```
+### Open in browser:
+http://localhost:4200
+### Build for Production
+```bash
+ng build --configuration production
+```
 
 ---
 
- "Code. Learn. Improve. Repeat."
+## Author
 
-## Running end-to-end tests
+Omayma Maalej
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
+GitHub: https://github.com/omaymamaalej
+Live Portfolio: https://omaymamaalej.vercel.app/
+  ## Thank you
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
