@@ -1,22 +1,90 @@
-# Portfolio
+# 👩‍💻 Omayma Maalej — Full Stack Developer Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+🚀 Live Portfolio: https://YOUR-VERCEL-LINK.vercel.app
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📌 Profile Summary
 
-## Code scaffolding
+Full Stack Developer specialized in building modern, scalable, and responsive web applications using Angular and Spring Boot.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Focused on clean UI, performance optimization, and user experience.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🎯 Key Strengths (HR Focus)
 
-## Running unit tests
+- ✔ Frontend Development (Angular, TypeScript, HTML, CSS)
+- ✔ Backend Development (Spring Boot, Node.js)
+- ✔ REST APIs & System Integration
+- ✔ UI/UX Implementation
+- ✔ Responsive & Mobile-First Design
+- ✔ Problem Solving & Debugging
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- Angular
+- TypeScript
+- HTML5 / CSS3
+- Bootstrap
+
+**Backend**
+- Spring Boot
+- Node.js
+
+**Database**
+- MySQL
+- MongoDB
+
+**Tools**
+- Git & GitHub
+- Vercel
+- Postman
+
+---
+
+## 🚀 Featured Project
+
+### 💼 Portfolio Website
+A personal portfolio showcasing my skills, projects, and experience.
+
+✔ Built with Angular  
+✔ Responsive design  
+✔ Smooth animations  
+✔ Deployed on Vercel  
+
+👉 Live: https://YOUR-VERCEL-LINK.vercel.app
+
+---
+
+## 📊 Soft Skills
+
+- Communication  
+- Teamwork  
+- Adaptability  
+- Time Management  
+- Attention to Detail  
+
+---
+
+## 📬 Contact
+
+- 📧 Email: om.maalej@gmail.com  
+- 💼 LinkedIn: https://linkedin.com/in/omayma-maalej  
+- 💻 GitHub: https://github.com/omaymamaalej  
+
+---
+
+## ⭐ Objective
+
+Seeking opportunities as a Full Stack Developer to contribute to impactful projects and grow in a professional environment.
+
+---
+
+✨ "Code. Learn. Improve. Repeat."
 
 ## Running end-to-end tests
 
