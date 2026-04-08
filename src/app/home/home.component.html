@@ -1,0 +1,28 @@
+<div class="align-items-center default-container row">
+  
+  <!-- TEXTE -->
+  <div class="col-lg-6">
+    <div class="text-left">
+      <h1 class="home-title">Hi, I’m Omayma Maalej </h1>
+
+      <h2 class="home-author">
+         Full-Stack Developer specializing in AI-driven web applications  
+        <span id="dynamic-text">{{ dynamicText }}</span>
+      </h2>
+
+      <blockquote>I design and develop scalable, modern web applications with a strong focus on user experience and intelligent solutions. I am passionate about transforming complex ideas into impactful digital products.</blockquote>
+
+      <div class="buttons-container">
+  <button (click)="scrollTo('portfolio')" class="nav-link">View My Work</button>
+  <button (click)="downloadCV()">Download CV</button>
+  <button (click)="scrollTo('contact')" class="nav-link">Contact me</button>
+</div>
+    </div>
+  </div>
+
+  <!-- PHOTO -->
+  <div class="col-lg-6 text-center">
+    <img src="assets/omayma.jpg" alt="Omayma Maalej" class="profile-img">
+  </div>
+
+</div>

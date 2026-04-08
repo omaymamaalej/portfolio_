@@ -1,0 +1,70 @@
+.footer {
+  background-color: #27333f;
+  padding: 20px 40px;
+  color: #adb5bd;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* 🔥 gauche / droite */
+  align-items: center;
+  width: 100%;
+}
+
+/* TEXTE À GAUCHE */
+.text {
+  font-size: 14px;
+  color: #b0caf063;
+}
+
+.text span {
+  color: #00ff88;
+  font-weight: 600;
+}
+
+/* ICONES À DROITE */
+.icons {
+  display: flex;
+  gap: 18px;
+}
+
+.icons a {
+  font-size: 22px;
+  color: #b0caf063;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+/* hover effet */
+.icons a:hover {
+  color: #00ff88;
+  transform: translateY(-3px);
+}
+
+/* underline animation */
+.icons a::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #00ff88;
+  transition: 0.3s;
+}
+
+.icons a:hover::after {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .icons {
+    justify-content: center;
+  }
+}

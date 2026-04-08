@@ -1,0 +1,17 @@
+<header class="navbar">
+  <div class="container">
+
+    <a class="brand" (click)="scrollTo('home')">
+      OMAYMA MAALEJ
+    </a>
+
+    <ul class="nav-links">
+      <li><a [class.active]="activeSection === 'home'" (click)="scrollTo('home')">Home</a></li>
+      <li><a [class.active]="activeSection === 'about'" (click)="scrollTo('about')">About</a></li>
+      <li><a [class.active]="activeSection === 'skills'" (click)="scrollTo('skills')">Experience</a></li>
+      <li><a [class.active]="activeSection === 'portfolio'" (click)="scrollTo('portfolio')">Portfolio</a></li>
+      <li><a [class.active]="activeSection === 'contact'" (click)="scrollTo('contact')">Contact</a></li>
+    </ul>
+
+  </div>
+</header>
