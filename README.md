@@ -1,10 +1,10 @@
-# 👩‍💻 Omayma Maalej — Full Stack Developer Portfolio
+#  Omayma Maalej — Full Stack Developer Portfolio
 
-🚀 Live Portfolio: https://YOUR-VERCEL-LINK.vercel.app
+ Live Portfolio: [https://omaymamaalej.vercel.app/]
 
 ---
 
-## 📌 Profile Summary
+##  Profile Summary
 
 Full Stack Developer specialized in building modern, scalable, and responsive web applications using Angular and Spring Boot.
 
@@ -12,7 +12,7 @@ Focused on clean UI, performance optimization, and user experience.
 
 ---
 
-## 🎯 Key Strengths (HR Focus)
+##  Key Strengths 
 
 - ✔ Frontend Development (Angular, TypeScript, HTML, CSS)
 - ✔ Backend Development (Spring Boot, Node.js)
@@ -23,7 +23,7 @@ Focused on clean UI, performance optimization, and user experience.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Frontend**
 - Angular
@@ -46,9 +46,9 @@ Focused on clean UI, performance optimization, and user experience.
 
 ---
 
-## 🚀 Featured Project
+##  Featured Project
 
-### 💼 Portfolio Website
+###  Portfolio Website
 A personal portfolio showcasing my skills, projects, and experience.
 
 ✔ Built with Angular  
@@ -56,11 +56,11 @@ A personal portfolio showcasing my skills, projects, and experience.
 ✔ Smooth animations  
 ✔ Deployed on Vercel  
 
-👉 Live: https://YOUR-VERCEL-LINK.vercel.app
+ Live: [https://YOUR-VERCEL-LINK.vercel.app](https://omaymamaalej.vercel.app/]
 
 ---
 
-## 📊 Soft Skills
+##  Soft Skills
 
 - Communication  
 - Teamwork  
@@ -70,7 +70,7 @@ A personal portfolio showcasing my skills, projects, and experience.
 
 ---
 
-## 📬 Contact
+##  Contact
 
 - 📧 Email: om.maalej@gmail.com  
 - 💼 LinkedIn: https://linkedin.com/in/omayma-maalej  
@@ -78,13 +78,13 @@ A personal portfolio showcasing my skills, projects, and experience.
 
 ---
 
-## ⭐ Objective
+##  Objective
 
 Seeking opportunities as a Full Stack Developer to contribute to impactful projects and grow in a professional environment.
 
 ---
 
-✨ "Code. Learn. Improve. Repeat."
+ "Code. Learn. Improve. Repeat."
 
 ## Running end-to-end tests
 
