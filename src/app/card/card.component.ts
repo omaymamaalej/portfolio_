@@ -22,4 +22,9 @@ export class CardComponent {
       }
     });
   }
+  openLink(link?: string) {
+  if (link) {
+    window.open(link, '_blank');
+  }
+}
 }

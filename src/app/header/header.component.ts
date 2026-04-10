@@ -11,6 +11,7 @@ import { Component, HostListener } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  isMenuOpen = false;
    activeSection: string = 'home';
   scrollTo(section: string) {
     document.getElementById(section)?.scrollIntoView({
@@ -36,4 +37,9 @@ export class HeaderComponent {
       }
     }
   }
+  
+
+toggleMenu() {
+  this.isMenuOpen = !this.isMenuOpen;
+}
 }

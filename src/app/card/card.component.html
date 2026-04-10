@@ -4,13 +4,17 @@
         <p class="card-text">{{ card.summary }}</p>
         <button class="button-small"(click)="openCardModal()"><a>View More</a></button>
     </div>
-    <div class="card-footer">
-        <div class="d-flex flex-wrap justify-content-center">
+      <div class="tags">
+  @for (tag of card.tags; track tag) {
+    <span 
+      class="tag"
+      [style.background]="tag.color"
+      (click)="openLink(tag.link); $event.stopPropagation()">
+      {{ tag }}
+    </span>
+  }
+</div>
+</div>
+<div class="tags">
 
-            @for(tag of card.tags; track card.tags) {
-                <div class="tag me-2 mb1" [style.background-color]="tag.color">{{ tag }}</div>
-            }
-
-        </div>
-    </div>
 </div>

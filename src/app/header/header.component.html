@@ -4,9 +4,11 @@
     <a class="brand" (click)="scrollTo('home')">
       OMAYMA MAALEJ
     </a>
-
-    <ul class="nav-links">
-      <li><a [class.active]="activeSection === 'home'" (click)="scrollTo('home')">Home</a></li>
+   <div class="menu-toggle" (click)="toggleMenu()">
+      ☰
+    </div>
+    <ul class="nav-links" [class.open]="isMenuOpen">
+      <li><a [class.active]="activeSection === 'home'" (click)="scrollTo('home')" >Home</a></li>
       <li><a [class.active]="activeSection === 'about'" (click)="scrollTo('about')">About</a></li>
       <li><a [class.active]="activeSection === 'skills'" (click)="scrollTo('skills')">Experience</a></li>
       <li><a [class.active]="activeSection === 'portfolio'" (click)="scrollTo('portfolio')">Portfolio</a></li>

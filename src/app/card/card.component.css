@@ -6,14 +6,16 @@
     justify-content: space-around;
     background-color: #27333f;
     color: white;
-    margin-top: 50px;
+    margin-top: 20px;
     border: 2px solid #b0caf063;
 }
 
 .card-body{
     margin: 5px 0px;
     text-align: center;
+      padding-bottom: 15px;
 }
+
 
 .card-title{
     color: #8c98a3;
@@ -27,4 +29,34 @@
     color: white;
     font-size: 1rem;
     line-height: 1.75rem;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap; 
+ justify-content: center;  
+   align-items: center;
+  gap: 8px;
+  width: 100%; 
+    margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.tag {
+      display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+justify-content: center;
+gap: 30px;
+}
+
+
+.tag:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 6px rgba(0, 255, 136, 0.4);
 }

@@ -213,3 +213,33 @@ app-root {
   opacity: 1;
   transform: translateY(0);
 }
+.tags {
+  display: flex;
+  flex-wrap: wrap; 
+ justify-content: center;  
+   align-items: center;
+  gap: 8px;
+  width: 100%; 
+    margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.tag {
+      display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+justify-content: center;
+gap: 30px;
+}
+
+
+.tag:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 6px rgba(0, 255, 136, 0.4);
+}
